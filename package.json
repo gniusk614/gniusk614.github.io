@@ -2,7 +2,6 @@
   "name": "rua",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gniusk614.github.io",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -19,7 +18,8 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://gniusk614.github.io",,
   },
   "scripts": {
     "predeploy": "yarn build",
