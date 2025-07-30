@@ -1,4 +1,10 @@
 .App {
+  font-family: 'Noto Serif KR', serif;
+  background-color: #FFF5EE;
+  color: #333;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
   text-align: center;
 }
 

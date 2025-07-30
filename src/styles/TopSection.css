@@ -1,0 +1,99 @@
+.top-section {
+    align-content: center;
+}
+
+.top-message {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+.top-title{
+    text-align: left;
+}
+
+.parents {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.baby-photo-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.baby-photo {
+    width: 180px;
+    height: 180px;
+    background-image: url('../assets/rua-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;  /* 꽃 프레임 안쪽에 배치 */
+    left: 10px;
+    z-index: 1;
+}
+.flower-frame {
+    position: absolute;
+    top: -18px;
+    left: -30px;
+    width: 260px;
+    height: 240px;
+    z-index: 2;
+    pointer-events: none; /* 클릭 방지 */
+}
+
+
+.map-img {
+    width: 100%;
+    max-width: 500px;    /* 데스크탑에서 너무 커지지 않도록 제한 */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.info-section {
+    text-align: right;
+    margin-top: 40px;
+    line-height: 1.8;
+    font-size: small;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.name-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    line-height: 1.8;
+}
+
+.date-time,
+.location,
+.address {
+    font-size: 13px;
+    margin: 4px 0;
+    font-weight: bold;
+}
+.map-note{
+    font-family: 'S-CoreDream-4Regular', sans-serif;
+    font-size: small;
+}
+
+.photo-section {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.map-section {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
