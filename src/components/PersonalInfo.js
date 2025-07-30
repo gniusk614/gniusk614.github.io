@@ -52,7 +52,7 @@ export default function PersonalInfo() {
                             <TableCell align="left" style={{fontFamily: "'Noto Serif KR', serif", fontWeight: 'bold'}}>
                                 연락처
                             </TableCell>
-                            <TableCell align="center" colSpan={3}></TableCell>
+                            <TableCell align="center" colSpan={2}></TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -72,16 +72,6 @@ export default function PersonalInfo() {
                                     <IconButton onClick={() => clickSMS(person.phone)}>
                                         <FaSms style={{color: '#DBB47E'}}/>
                                     </IconButton>
-                                </TableCell>
-                                <TableCell align="right" style={{whiteSpace: 'nowrap'}}>
-                                    <div style={{display: 'flex', alignItems: 'stretch'}}>
-                                        <IconButton onClick={() => copyAccount(person.account)} size="small">
-                                            <Typography
-                                                style={{fontFamily: "'Noto Serif KR', serif", fontSize: "small"}}>
-                                                계좌번호
-                                            </Typography>
-                                        </IconButton>
-                                    </div>
                                 </TableCell>
                             </TableRow>
                         ))}
