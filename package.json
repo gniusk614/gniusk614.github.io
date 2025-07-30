@@ -19,7 +19,7 @@
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://gniusk614.github.io",,
+    "homepage": "https://gniusk614.github.io"
   },
   "scripts": {
     "predeploy": "yarn build",
